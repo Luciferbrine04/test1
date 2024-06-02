@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+    color: #333333;
+}
+
+input {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: 0;
+    padding: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #45a049;
+}
